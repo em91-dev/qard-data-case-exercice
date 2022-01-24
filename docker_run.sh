@@ -4,7 +4,7 @@ cd $(dirname ${0})
 
 DOCKER_COMMAND="$*"
 if [ "$DOCKER_COMMAND" = "" ] ; then
-    DOCKER_COMMAND="/bin/bash -c "source activate sparkenv && python /src/app.py"
+    DOCKER_COMMAND='/bin/bash -c "source activate sparkenv && python /src/app.py"'
 fi
 
 docker run -it --rm \
