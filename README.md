@@ -7,11 +7,11 @@ This is a prototype of solution for the exercice [https://github.com/ierpDesbier
 
 **Environment and code**
 
-   The exercice is run on Windows in a docker environment; the main files and directories:
+   The exercice is run in a docker environment; the main files and directories:
    * **Dockerfile** is used to build an Ubuntu image with the necessary packages
    * **src/app.py** is the source of the program
    * **docker_run.sh** is the script that executes the program in Docker.
-   * **qard-data-base/** is a copy of the github exercice cloned by **clone.sh**
+   * **qard-data-base/** is a copy of the github exercice (**clone.sh**)
    * **db/** contains some read-only database downloaded from internet
    * **out/result.json** is the result of the program in JSON format  
 
